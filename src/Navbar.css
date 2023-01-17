@@ -1,0 +1,50 @@
+.navbar {
+    background-color:gray;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.myName {
+    position: relative;
+    left: 20%; 
+    color: white;
+}
+
+.selfIntroLink{
+    position: relative;
+    left: 30%;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.selfIntroLink:hover{
+    background-color: white;
+    color: gray;
+}
+
+.selfIntroLinkText{
+    font-size: 30px;
+}
+
+.contactInfoLink{
+    position: relative;
+    left: 35%;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.contactInfoLink:hover{
+    background-color: white;
+    color: gray;
+}
+.contactInfoLinkText{
+    font-size: 30px;
+}
